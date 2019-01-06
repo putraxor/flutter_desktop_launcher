@@ -8,7 +8,7 @@ Flutter Desktop Mac OS Launcher
 
 - Download this repository
 - Extract zip archive
-- Copy `Flutter.app` and `build_run.sh` to your project
+- Copy `Flutter.app` (Mac) / `linux_launcher + all files` (Linux) to your project
 - Modify your `main.dart` add target platform to `Fuchsia`
 
   ```java
