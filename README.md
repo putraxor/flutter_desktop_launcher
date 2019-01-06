@@ -1,16 +1,24 @@
-# flutter_clean_profile_ui
+# Desktop Launcher
 
-A new Flutter project.
+Flutter Desktop Mac OS Launcher
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- Download this repository
+- Extract zip archive
+- Copy `Flutter.app` and `build_run.sh` to your project
+- Modify your `main.dart` add target platform to `Fuchsia`
 
-A few resources to get you started if this is your first Flutter project:
+  ```java
+  import 'package:flutter/foundation.dart'
+      show debugDefaultTargetPlatformOverride; //for desktop embedder
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+  void main() {
+  debugDefaultTargetPlatformOverride =
+      TargetPlatform.fuchsia; //for desktop embedder
+  runApp(MyApp());
+  }
+  ```
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+- Build flutter bundle inside your project `flutter build bundle`
+- Run `Flutter.app`
