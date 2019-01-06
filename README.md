@@ -4,10 +4,7 @@ Flutter Desktop Mac OS Launcher
 
 ## Getting Started
 
-<video width="400" controls>
-  <source src="record.mov" type="video/mov">
-  Your browser does not support HTML5 video.
-</video>
+![Flutter Desktop Hot Reload](https://github.com/putraxor/flutter_macos_launcher/blob/master/demo.gif)
 
 - Download this repository
 - Extract zip archive
