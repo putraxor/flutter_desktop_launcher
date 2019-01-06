@@ -4,6 +4,11 @@ Flutter Desktop Mac OS Launcher
 
 ## Getting Started
 
+<video width="400" controls>
+  <source src="record.mov" type="video/mov">
+  Your browser does not support HTML5 video.
+</video>
+
 - Download this repository
 - Extract zip archive
 - Copy `Flutter.app` and `build_run.sh` to your project
