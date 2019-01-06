@@ -22,3 +22,19 @@ Flutter Desktop Mac OS Launcher
 
 - Build flutter bundle inside your project `flutter build bundle`
 - Run `Flutter.app`
+- In VS Code create Launch Configuration:
+  ```javascript
+  {
+  "version": "0.2.0",
+  "configurations": [
+      {
+      "name": "Flutter Desktop",
+      "request": "attach",
+      "deviceId": "flutter-tester",
+      "observatoryUri": "http://127.0.0.1:49494/",
+      "type": "dart"
+      }
+  ]
+  }
+  ```
+- Run `Flutter Desktop` now `Hot Reload` is working
