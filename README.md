@@ -4,6 +4,8 @@ Flutter Desktop Mac OS Launcher
 
 ## Getting Started
 
+You can view how to setup this launcher on Youtube: [Run Flutter on Desktop Platform without Emulator](https://www.youtube.com/watch?v=QFD2r4C3fHs)
+
 ![Flutter Desktop Hot Reload](https://github.com/putraxor/flutter_macos_launcher/blob/master/demo.gif)
 
 - Download this repository
@@ -23,7 +25,7 @@ Flutter Desktop Mac OS Launcher
   ```
 
 - Build flutter bundle inside your project `flutter build bundle`
-- Run `Flutter.app`
+- Run `Flutter.app` or `./linux_launcher`
 - In VS Code create Launch Configuration:
   ```javascript
   {
