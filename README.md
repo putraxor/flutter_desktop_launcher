@@ -9,7 +9,7 @@ You can view how to setup this launcher on Youtube: [Run Flutter on Desktop Plat
 ![Flutter Desktop Hot Reload](https://github.com/putraxor/flutter_macos_launcher/blob/master/demo.gif)
 
 How to setup:
-- Download this [repository](https://github.com/putraxor/flutter_desktop_launcher/archive/master.zip)
+- Download for [Linux/Debian](https://github.com/putraxor/flutter_desktop_launcher/raw/master/linux_launcher.zip) or [Mac OS](https://github.com/putraxor/flutter_desktop_launcher/releases/download/v0.0.1-mac/Archive.zip)
 - Extract zip archive
 - Copy `Flutter.app` (Mac) / `linux_launcher + all files` (Linux) to your project
 - Modify your `main.dart` add target platform to `Fuchsia`
