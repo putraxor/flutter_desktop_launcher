@@ -8,7 +8,7 @@ You can view how to setup this launcher on Youtube: [Run Flutter on Desktop Plat
 
 ![Flutter Desktop Hot Reload](https://github.com/putraxor/flutter_macos_launcher/blob/master/demo.gif)
 
-How to setup:
+How to setup for VSCode:
 - Download for [Linux/Debian](https://github.com/putraxor/flutter_desktop_launcher/raw/master/linux_launcher.zip) or [Mac OS](https://github.com/putraxor/flutter_desktop_launcher/releases/download/v0.0.1-mac/Archive.zip)
 - Extract zip archive
 - Copy `Flutter.app` (Mac) / `linux_launcher + all files` (Linux) to your project
@@ -43,3 +43,6 @@ How to setup:
   }
   ```
 - Run `Flutter Desktop` now `Hot Reload` is working
+
+How to setup for Android Studio:
+- [![Flutter Desktop on Android Studio](https://img.youtube.com/vi/imgl0GTopYM/0.jpg)](https://www.youtube.com/watch?v=imgl0GTopYM)
