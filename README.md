@@ -45,4 +45,4 @@ How to setup for VSCode:
 - Run `Flutter Desktop` now `Hot Reload` is working
 
 How to setup for Android Studio:
-- ![Flutter Desktop Hot Reload on Android Studio](https://youtu.be/imgl0GTopYM)
+- [![Flutter Desktop on Android Studio](https://img.youtube.com/vi/imgl0GTopYM/0.jpg)](https://www.youtube.com/watch?v=imgl0GTopYM)
